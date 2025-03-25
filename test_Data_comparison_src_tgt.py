@@ -12,7 +12,7 @@ def test_data_extraction_comparison_src_tgt(src_source_set_up,tgt_target_set_up)
     if df_src.equals(df_tgt):
         print('pass result')
     else:
-        print('Fail result')
+        print('Fail results')
 
 @pytest.mark.skip
 #Although the data is same in both DB's(Oracle,sqlserver), I am getting assertion error)
